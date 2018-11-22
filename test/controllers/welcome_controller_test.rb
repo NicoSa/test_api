@@ -6,11 +6,9 @@ class WelcomeControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-   test "should get index again" do
-    get welcome_index_url
-    a
 
-   test "should get index again" do
+
+  test "should get index again" do
     get welcome_index_url
     assert_response :success
   end
